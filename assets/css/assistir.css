@@ -1,0 +1,27 @@
+/* SECTION ONDE ASSISTIR */
+.onde-assistir{
+    width: 424px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logos-assistir{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-primevideo{
+    width: 170px;
+    height: 58px;
+    margin-right: 52px;
+    cursor: pointer;
+}
+
+#logo-hbomax{
+    width: 166px;
+    height: 27px;
+    cursor: pointer;
+}

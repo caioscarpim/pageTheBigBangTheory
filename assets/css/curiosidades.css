@@ -1,0 +1,43 @@
+/* SECTION CURIOSIDADES */
+.section-curiosidades{
+    margin-top: 80px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 20px;
+}
+
+.img-curiosidades{
+    align-items: center;
+}
+
+.img-curiosidades img{
+    width: 265px;
+    height: 188px;
+    border-radius: 5px;
+}
+
+.texto-curiosidades p{
+    max-width: 340px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.b-curiosidades{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    width: 135px;
+    height: 40px;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #1d1d1d;
+    transition: 0.5s;
+}
+
+.b-curiosidades:hover{
+    width: 145px;
+    background-color: #000;
+}

@@ -1,0 +1,28 @@
+.footer{
+    margin-top: 112px;
+    height: 116px;
+    background-color: #5996B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer img{
+    width: 145px;
+    height: 29px;
+}
+
+.footer p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer p a:hover{
+    text-decoration: underline;
+}

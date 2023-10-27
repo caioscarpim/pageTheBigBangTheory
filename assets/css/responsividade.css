@@ -1,0 +1,168 @@
+@media screen and (max-width: 990px){
+    .section-curiosidades{
+        display: block;
+        text-align: center;
+    }
+    .texto-curiosidades{
+        margin-top: 20px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:770px){ /* TELAS MEDIAS */
+    header{
+        height: 580px;
+    }
+    /* RESPONSIVO NAVBAR */
+    .navbar{
+        padding-inline: 25px;
+    }
+    .menu-list{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu{
+        position: fixed;
+        width: 100vw;
+        padding: 20px 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #5996b3;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);;
+    }
+    .mobile-menu li{
+        margin: 15px 0;
+    }
+    .mobile-menu li a{
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        color: #fff;
+    }
+    .mobile-menu li a:hover{
+        color: #B23926;
+    }
+    .open{
+        display: block;
+    }
+
+    /* RESPONSIVO HEADER PRINCIPAL */
+    .container-header{
+        display: flex;
+    }
+    .header-principal{
+        margin-top: 75px;
+    }
+    .logo-bigbang{
+        width: 280px;
+        height: 60px;
+    }
+    .p-header{
+        width: 350px;
+        font-size: 15px;
+    }
+
+    /* ELENCO */
+    .elenco-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-inline: 30px;
+    }
+    .elenco-img img{
+        justify-self: center;
+        margin-inline: 0;
+    }
+
+    /* TEMPORADAS */
+    .temporadas{
+        margin-inline: 0;
+    }
+
+    .container-temporadas{
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .box-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+}
+
+
+@media screen and (max-width:500px){ /* CELULAR */
+    /* RESPONSIVO HEADER PRINCIPAL */
+    .header-principal{
+        max-width: 300px;
+        margin-left: 10px;
+    }
+    .p-header{
+        width: 250px;
+    }
+    /* SECTION ONDE ASSISTIR */
+    .onde-assistir{
+        max-width: 300px;
+    }
+
+    #logo-primevideo{
+        width: 106px;
+        height: 36px;
+    }
+
+    #logo-hbomax{
+        width: 88px;
+        height: 16px;
+    } 
+
+    /* ELENCO */
+    .elenco-img{
+        grid-template-columns: 1fr 1fr;
+        margin-inline: 8px;
+    }
+
+    .elenco-img img{
+        margin-inline: 0;
+    }
+
+    /* ELENCO */
+    .elenco-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .elenco-img img{
+        justify-self: center;
+        margin-inline: 2px;
+    }
+
+    /* TEMPORADAS */
+    .temporadas{
+        margin-inline: 0;
+    }
+
+    .container-temporadas{
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .descricao-temporada p{
+        font-size: 13px;
+        width: 190px;
+    }
+
+    .box-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+}    
